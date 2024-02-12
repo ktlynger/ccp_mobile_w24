@@ -1,8 +1,82 @@
+
+h1.website-title {
+    text-align: center;
+    color: #FF00FF;
+}
+
 .grid-container {
     display:grid;
+}
+
+body {
+    background-color: #FEFCF5;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav ul {
+    border-bottom: black;
+    text-align:center; 
+    position: relative; 
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: space-evenly;
+    padding: 6px;
+    color: #FFFF;
+    list-style-type: none;
+}
+
+nav ul li.active a {
+    color:purple ;
+    font-weight: bold;
+}
+a:active {
+    color: #FFFF00;
+}
+
+a:hover {
+    color: #FF0000;
 }
 
 .bacon-photos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.murphy-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.div.h1 {
+    text-align: left;
+}
+
+h1.intro {
+    text-align: center;
+}
+
+img.intro-photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center {
+    display: block;
+}
+
+h1.pet-name {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
 }
